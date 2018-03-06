@@ -10,6 +10,34 @@
         <name> Senac TADS PI3 - Turma B - Grupo BETA</name>        
     </organization>
     
+    <developers>
+        <developer>
+            <id>roberto.jwsilva</id>
+            <name>Roberto Withowsky</name>
+            <email>betowithowsky@gmail.com</email>
+        </developer>
+        <developer>
+            <id>bruna.gagliardi</id>
+            <name>Bruna Gagliardi</name>
+            <email>bru.gagliardi@hotmail.com</email>
+        </developer>
+        <developer>
+            <id>vitor.franca</id>
+            <name>Vitor França</name>
+            <email>francavitor64@gmail.com</email>
+        </developer>
+        <developer>
+            <id>tarcisio.blois</id>
+            <name>Tarcisio Blois</name>
+            <email>tarcisio.blois@gmail.com</email>
+        </developer>
+        <developer>
+            <id>yuri.jivago</id>
+            <name>Yuri Withowsky</name>
+            <email>yuri.jivago14@gmail.com</email>
+        </developer>
+    </developers>
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>

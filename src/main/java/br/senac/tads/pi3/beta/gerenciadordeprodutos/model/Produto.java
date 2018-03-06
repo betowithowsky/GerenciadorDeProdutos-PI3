@@ -11,26 +11,35 @@ package br.senac.tads.pi3.beta.gerenciadordeprodutos.model;
  */
 public class Produto {
     
-    private String Nome;
-    private String Descricao;
+    private int id;
+    private String nome;
+    private String descricao;
     private float precoCompra;
     private float precoVenda;
     private int quantidade;
     
-    public String getNome() {
-        return Nome;
+   public int getId() {
+        return id;
     }
 
-    public void setNome(String Nome) {
-        this.Nome = Nome;
+    public void setId(int id) {
+        this.id = id;
+    }      
+    
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getDescricao() {
-        return Descricao;
+        return descricao;
     }
 
-    public void setDescricao(String Descricao) {
-        this.Descricao = Descricao;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     public float getPrecoCompra() {
